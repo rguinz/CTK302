@@ -13,11 +13,13 @@ function draw() {
       timer++;
       if (timer > 5*60) {
         state = 1;
+        timer = 0;
       }
       break;
 
     case 1:
       background('green');
+      text("case 1", 250, 250) ;
       break;
 
   }
